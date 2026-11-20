@@ -61,7 +61,7 @@ def guess_mood(sentence):
     if happy_count > sad_count:
         return "Happy"
     elif sad_count > happy_count:
-    return "Sad"
+        return "Sad"
     else:
         return "Sad"
 
